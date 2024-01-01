@@ -1,0 +1,47 @@
+
+body {
+    background-image: url(./images/passwordgen.jpeg);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    color: rgb(207, 233, 255);
+    margin: 150px auto;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    border-radius: 8%;
+    box-shadow: 0px 0px 20px rgba(7, 32, 193, 0.666);
+    background: radial-gradient( rgba(21, 52, 255, 0.103) 0%,rgba(15, 47, 255, 0.133)25%, rgba(14, 46, 255, 0.127)50%,rgba(14, 46, 255, 0.215)75%,rgba(31, 61, 255, 0.144) 100%);
+    background-color: transparent;
+}
+
+.password {
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+button{
+    color: aliceblue;
+    transform-style: none;
+    border:2px solid #1975ff;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 20px 10px 20px  10px;
+}
+.btn{
+    border: none;
+}
+input{
+    width: fit-content;
+    color: aliceblue;
+    outline: none;
+    border-style: none;
+    text-decoration: none;
+    border-bottom:1px solid #1975ff;
+    background-color: transparent;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-Generator</title>
+    <link rel="shortcut icon" href="./images/Logoabhi.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <div role="button" class="container">
+
+        <h1>Password Generator</h1>
+        <input type="range" id="length" name="length" min="1" max="30" value="8" onmousemove="rangeSlider(this.value)"><br>
+        <label for="length">Password Length: </label>
+        <span id="rangeValue">8</span>
+        <br><br>
+        <label for="custom">Custom Characters:</label>
+        <input type="text" id="custom" name="custom">
+        <br><br>
+        <button onclick="generatePassword()">Generate Password & 📋 </button><br>
+        <span id="copied"></span>
+        <div  class="password" id="password"></div><br>
+    </div>
+
+</body> 
+</html> 
